@@ -3,7 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>💖 Yasmim & Fábio: Nosso Primeiro Mês Inesquecível 💖</title>
+    <title>💖 Yasmim & Fábio 💖</title>
 
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
@@ -612,6 +612,14 @@
             <h1 id="intro-heading" class="intro-title">Yasmim,</h1>
             <p class="intro-subtitle">Mês passado rolou um 'sim' que iniciou nossa aventura mais linda. (Que já havia INICIADO KKKKKK) </p>
         </div>
+        <div class="music-player">
+                <audio id="background-music" src="N Nando Reis.mp3" data-title="Nossa Música (N - Nando Reis)" loop preload="metadata"></audio>
+                <button id="play-pause-button" aria-label="Tocar Nossa Música">
+                    <svg class="play-icon" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="currentColor" aria-hidden="true"><path d="M8 5v14l11-7z"/><path d="M0 0h24v24H0z" fill="none"/></svg>
+                    <svg class="pause-icon" style="display: none;" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="currentColor" aria-hidden="true"><path d="M6 19h4V5H6v14zm8-14v14h4V5h-4z"/><path d="M0 0h24v24H0z" fill="none"/></svg>
+                </button>
+                <p class="song-title" id="song-info" aria-live="polite"></p>
+            </div>
         <a href="#main-content-area" class="scroll-down" aria-label="Explorar nossa história">
             <span>Desce, neném</span>
             <svg xmlns="http://www.w3.org/2000/svg" height="28px" viewBox="0 0 24 24" width="28px" aria-hidden="true"><path d="M0 0h24v24H0V0z" fill="none"/><path d="M7.41 8.59L12 13.17l4.59-4.58L18 10l-6 6-6-6 1.41-1.41z"/></svg>
@@ -721,15 +729,6 @@
                    <button class="carousel-button next" aria-label="Próxima foto">&#10095;</button>
                </div>
                <div class="carousel-dots"></div>
-            </div>
-
-            <div class="music-player">
-                <audio id="background-music" src="N Nando Reis.mp3" data-title="Nossa Música (N - Nando Reis)" loop preload="metadata"></audio>
-                <button id="play-pause-button" aria-label="Tocar Nossa Música">
-                    <svg class="play-icon" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="currentColor" aria-hidden="true"><path d="M8 5v14l11-7z"/><path d="M0 0h24v24H0z" fill="none"/></svg>
-                    <svg class="pause-icon" style="display: none;" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="currentColor" aria-hidden="true"><path d="M6 19h4V5H6v14zm8-14v14h4V5h-4z"/><path d="M0 0h24v24H0z" fill="none"/></svg>
-                </button>
-                <p class="song-title" id="song-info" aria-live="polite"></p>
             </div>
         </div>
 
